@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  color: #0D0D0D;
+  font-size: 16px;
+}
+
+strong {
+  font-weight: 900;
+}
+
+
+/* Navigation */
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  margin-left: 1.5rem;
+}
+
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+
+
+/* Landing Page */
+
+.home-inner {
+  background-image: url(https://images.unsplash.com/photo-1482731215275-a1f151646268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+}
+
+/* About */
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+
+.narrow h1 {
+  font-size: 2.4rem;
+  font-weight: 200;
+}
+
+.about {
+  border: 2px dashed #ffc107;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.fa-home, .fa-warehouse, .fa-hammer{
+  color: #ffc107;
+}
+
+/* Services */
+
+.services {
+  width: 75%;
+  margin: auto;
+}
+
+.services h3, .services p {
+  color: white;
+}
+
+.services p {
+  font-weight: 200;
+  margin-top: 1rem;
+}
+
+.heading {
+  color: white;
+}
+
+.bg-dark {
+  background-color: #0D0D0D !important; 
+}
+
+.feature {
+  margin-top: 3.5rem;
+}
+
+.feature h3 {
+  font-weight: 400;
+}
+
+/* Gallery */
+
+.gallery h1 {
+  color: black;
+}
+
+.gallery-item {
+  
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5rem 0px !important;
+  font-weight: 700;
+  font-size: 1.3rem;
+  transition: opacity 0.2s ease-in;
+}
+
+.gallery-item:hover {
+  outline: 2px dashed #ffc107;
+  opacity: 80%;
+  outline-offset:-20px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* Contact */
+
+.contact h4, .contact p {
+  color: white;
+}
+
+.contact-border {
+  border: 2px dashed #ffc107;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.contact-images {
+  margin-right: 1rem;
+}
+
+
+
+
+/* Footer */
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
